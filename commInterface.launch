@@ -1,0 +1,17 @@
+<launch>
+
+  <node name="json_prolog" pkg="json_prolog" type="json_prolog" output="screen">
+    <param name="" value="mod_vis"/>
+  </node>
+
+  <node name="stt" pkg="kitchencommunication" type="stt.py">
+  </node>
+
+  <node name="ki" pkg="kitchencommunication" type="ki.py">
+  </node>
+
+  <node name="gui" pkg="kitchencommunication" type="gui.py">
+  </node>
+
+
+</launch>

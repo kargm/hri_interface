@@ -1,0 +1,5 @@
+# A query is sent to speech_recognition and returns a goal
+
+string query
+---
+

@@ -1,0 +1,23 @@
+<package>
+  <description brief="kitchencommunication">
+
+     kitchencommunication
+
+  </description>
+  <author>Leonard Höß</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/kitchencommunication</url>
+  <depend package="std_msgs"/>
+  <depend package="std_srvs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="move_base_msgs"/>
+  <depend package="actionlib_msgs"/>
+  <depend package="json_prolog"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+
+</package>
+
+
